@@ -79,7 +79,9 @@ class ObjectDetection:
         self.__yolo_model_image_size = (416, 416)
         self.__yolo_boxes, self.__yolo_scores, self.__yolo_classes = "", "", ""
         self.__tiny_yolo_anchors = [[81, 82, 135, 169, 344, 319], [10, 14, 23, 27, 37, 58]]
-        self.__box_color = (112, 19, 24)
+        self.__box_color = (0, 255, 255)
+        # self.__box_color = (112, 19, 24)
+        
         
 
     def setModelTypeAsRetinaNet(self):
